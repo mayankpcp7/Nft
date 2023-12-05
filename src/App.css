@@ -1,0 +1,162 @@
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+.z_50 {
+  z-index: 50 !important;
+}
+.c_pointer {
+  cursor: pointer;
+}
+/* nav bar */
+.sm_nav {
+  position: fixed;
+  z-index: 4 !important;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  background: var(--bg-darkgreen);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms linear !important;
+}
+
+.nav ul li a {
+  color: #000;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+}
+.sign_btn {
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 25px;
+  background: #000;
+  width: 124.235px;
+  height: 36.95px;
+  border: none;
+}
+.border_grey {
+  border: 1px solid #b3b3b3;
+}
+.outline_none {
+  outline: none;
+}
+.mw_183 {
+  max-width: 183px;
+}
+input::placeholder {
+  color: #979898 !important;
+}
+.w_160 {
+  width: 152px;
+}
+.lh_normal {
+  line-height: normal;
+}
+/* -----------------header----------------- */
+.bg_header {
+  background-image: url(./assets/img/png/headerbg.png);
+  background-size: cover;
+  background-position: center;
+}
+.min_vh_100 {
+  min-height: 100vh;
+}
+.color_lightgrey {
+  color: #b3b1c3;
+}
+.lh_120 {
+  line-height: 120%;
+}
+.mw_652 {
+  max-width: 652.31px;
+}
+.join_btn {
+  color: #8f9597;
+  line-height: normal;
+  width: 124px;
+  padding-top: 12px;
+  padding-bottom: 7px;
+  border: none;
+  border: 1px solid white;
+}
+.mw_1140 {
+  max-width: 1140px;
+}
+.px_12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+/* ------------Nft LOOK---------------*/
+.mw_207 {
+  max-width: 207.227px;
+}
+.nft_look {
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.dark_grey {
+  color: #4d4d4d;
+}
+.border_grey {
+  border: 1px solid rgba(0, 0, 0, 0.46);
+}
+.color_grey {
+  color: #707070;
+}
+.h_buy {
+  height: 30.545px;
+}
+/* ----------------Exploration--------- */
+.exploration {
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.mh_211 {
+  height: 211px;
+}
+.w_207 {
+  min-width: 207.9px;
+}
+.mw_858 {
+  max-width: 858px;
+}
+.py_20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.px_29 {
+  padding-left: 29px;
+}
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.slick-slide > div {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .overflow_xscroll {
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+.ff_playfair {
+  font-family: "Playfair Display";
+}
+.ff_josefin {
+  font-family: "Josefin Sans";
+}
+:root {
+  --fs-xxl: 64px;
+  --fs-xl: 50px;
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 20px;
+  --fs-slg: 24px;
+  --fs-lg: 36px;
+  --fs-xxsm: 14px;
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xxsm {
+  font-size: var(--fs-xxsm);
+}
+.fs_slg{
+  font-size: var(--fs-slg);
+}
