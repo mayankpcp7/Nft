@@ -154,6 +154,101 @@ input::placeholder {
 .slick-slide > div {
   display: flex;
 }
+/* ------------------upcoming---------------- */
+.bg_upcomming {
+  background-image: url(./assets/img/png/upcomming_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_upcomming2 {
+  background-image: url(./assets/img/png/upcomming_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.opacity_70 {
+  opacity: 70%;
+}
+.explore_btn {
+  width: 144.429px;
+  height: 36.95px;
+  border: none;
+  border-radius: 25px;
+}
+/* -------------------latest news------------ */
+.latest_img {
+  width: 324.863px;
+  height: 293.102px;
+}
+.latest_card {
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+/* --------------------Community------------- */
+.bg_community {
+  background-image: url(./assets/img/png/community.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+.wh_193 {
+  width: 193px;
+  height: 193px;
+}
+.color_community {
+  color: #bebebe;
+}
+/* -------------------Comment----------------- */
+.wh_comment {
+  width: 239.218px;
+  height: 133.106px;
+}
+.comment_grey {
+  color: #808080;
+}
+.mw_215 {
+  max-width: 215px;
+}
+.comment_card {
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  box-shadow: -3px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+/* --------------------Footer----------------- */
+.mw_247 {
+  min-width: 247px;
+}
+.bg_grey {
+  background-color: #3f3f46;
+}
+.wh_134 {
+  width: 134px;
+  height: 134px;
+}
+.footer_grey {
+  color: #9999;
+}
+.border_input {
+  border: none;
+  outline: none;
+  border-radius: 25px 0px 0px 25px;
+}
+.subscribe {
+  width: 185px;
+  height: 40px;
+  border: none;
+  border-radius: 0px 25px 25px 0px;
+  background: linear-gradient(0deg, #fff 0%, #fff 100%), #7c58ff;
+}
+.footer_input::placeholder {
+  font-family: "Josefin Sans";
+}
 
 @media (max-width: 1200px) {
   .overflow_xscroll {

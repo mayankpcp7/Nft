@@ -4,6 +4,7 @@ import img2 from "../assets/img/png/malorum2.png";
 import img3 from "../assets/img/png/malorum3.png";
 import img4 from "../assets/img/png/malorum4.png";
 import img5 from "../assets/img/png/malorum5.png";
+import latestimg from "../assets/img/png/latest_img.png"
 export const lookoutdata = [
   {
     id: 1,
@@ -11,7 +12,7 @@ export const lookoutdata = [
   },
   {
     id: 1,
-    img: img2,
+    img: img2, 
   },
   {
     id: 1,

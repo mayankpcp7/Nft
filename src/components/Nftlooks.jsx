@@ -1,43 +1,8 @@
 import React from "react";
 import { lookoutdata } from "./Helper";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import heart from "../assets/img/svg/heart.svg";
-import Slider from "react-slick";
+import heart from "../assets/img/png/heart.png";
 const Nftlooks = () => {
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    dots: false,
-    arrows: false,
-    responsive: [
-      {
-        breakpoint: 1146,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+  
   return (
     <>
       <div className="mw_1140 mx-auto px_12 mt-5 pt-4">
@@ -58,8 +23,8 @@ const Nftlooks = () => {
                       $33,915
                     </p>
                     <div className="d-flex align-items-center">
-                      <img src={heart} alt="heart" />
-                      <p className="ff_josefin color_darkgrey mb-0 ps-1">915</p>
+                      <img height={12} width={13} src={heart} alt="heart" />
+                      <p className="ff_josefin dark_grey mb-0 ps-1">915</p>
                     </div>
                   </div>
                   <div className="d-flex align-items-center justify-content-center">

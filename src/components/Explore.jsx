@@ -1,5 +1,6 @@
 import React from "react";
 import { exploredata } from "./Helper";
+import heart from "../assets/img/png/heart.png";
 const Explore = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Explore = () => {
         </h2>
         {exploredata.map((explore) => {
           return (
-            <div className="d-flex flex-sm-row flex-column exploration px_29 py_20 mb-2 mt-1">
+            <div className="d-flex flex-sm-row flex-column exploration px_29 py_20 mb-2 mt-1 pe-3">
               <img
                 className="mh_211 w_207 me-4 object-fit-cover rounded-5 "
                 src={explore.pic}
@@ -29,8 +30,17 @@ const Explore = () => {
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum."
                 </p>
-                <div className="d-flex justify-content-between align-items-baseline mt-4 pt-2">
-                  <p className="ff_josefin fw-semibold dark_grey fs_slg ms-2">$33,915</p>
+                <div className="d-flex justify-content-between align-items-center mt-4 pt-2">
+                  <p className="ff_josefin fw-semibold dark_grey fs_slg ms-2">
+                    $33,915
+                  </p>
+                  <button className="ff_josefin fs_sm fw-semibold rounded-5 border_grey py-2 px-3 mt-3 lh_normal bg-transparent color_grey h_buy">
+                    BUY NOW
+                  </button>
+                  <div className="d-flex align-items-center">
+                    <img height={12} width={13} src={heart} alt="heart" />
+                    <p className="ff_josefin dark_grey mb-0 ps-1 pe-3">915</p>
+                  </div>
                 </div>
               </div>
             </div>
