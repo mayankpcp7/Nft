@@ -154,6 +154,84 @@ input::placeholder {
 .slick-slide > div {
   display: flex;
 }
+/* ------------------Market------------------ */
+#market .slick-slide {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.bg_market {
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  width: 266.99px;
+  height: 253.903px;
+}
+/* -=----------------Category---------------- */
+.mw_948 {
+  max-width: 948px;
+}
+.nav-tabs {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.tab_button {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.13);
+  border: none;
+  width: 170px;
+  height: 40.531px;
+}
+.nav-tabs {
+  border-bottom: none !important;
+  display: flex;
+  justify-content: center;
+  gap: 24px !important;
+}
+.nav-link {
+  color: #000000 !important;
+  font-family: "Josefin Sans";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.13) !important;
+  width: 170px;
+  height: 40.531px;
+  padding: 5px 70px;
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 12px;
+  border: none !important;
+  border-radius: 10px !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: white !important;
+  background-color: black !important;
+}
+.color_tab {
+  color: #4b4b4b;
+}
+.mw_858 {
+  max-width: 858px;
+}
+.category_hw {
+  max-width: 232.73px;
+  height: 222.49px;
+  flex-shrink: 0;
+}
+.category_card {
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  box-shadow: -3px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.hw_view {
+  width: 137.377px;
+  height: 36.95px;
+  border: none;
+}
 /* ------------------upcoming---------------- */
 .bg_upcomming {
   background-image: url(./assets/img/png/upcomming_1.png);
@@ -177,6 +255,10 @@ input::placeholder {
   border-radius: 25px;
 }
 /* -------------------latest news------------ */
+#latest .slick-slide {
+  padding-bottom: 10px;
+  gap: 25px;
+}
 .latest_img {
   width: 324.863px;
   height: 293.102px;
@@ -204,6 +286,21 @@ input::placeholder {
   color: #bebebe;
 }
 /* -------------------Comment----------------- */
+.trtl_y {
+  transform: translateY(-50%) !important;
+  left: -2%;
+}
+.left {
+  left: -2%;
+}
+.right_n2 {
+  right: -2%;
+  transform: translateY(-50%);
+}
+#comment .slick-slide {
+  justify-content: center !important;
+  padding-bottom: 10px;
+}
 .wh_comment {
   width: 239.218px;
   height: 133.106px;
@@ -249,9 +346,197 @@ input::placeholder {
 .footer_input::placeholder {
   font-family: "Josefin Sans";
 }
+/* ------------------Back To Top------------- */
+.curser_pointer {
+  cursor: pointer;
+}
+.z_20 {
+  z-index: 20;
+}
+.back_top {
+  height: 20px;
+  width: 20px;
+  transform: rotate(90deg);
+  margin: 15px;
+}
+.bg_light {
+  background-color: #707070;
+  border-radius: 10px;
+}
+/* ------------------Hovers------------------ */
+.hover_black:hover {
+  opacity: 100%;
+}
+.scale_hover:hover {
+  transform: scale(1.2);
+}
+.transition_300 {
+  transition: 300ms linear;
+}
+.sign_btn:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.join_btn:hover {
+  color: white;
+  background-color: #808080;
+}
+.hover_white:hover{
+  color: white;
+}
+/* ---------------------Preloader-------------- */
+.ctn-preloader {
+  align-items: center;
+  cursor: none;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+}
+
+.ctn-preloader .animation-preloader {
+  position: absolute;
+  z-index: 100;
+}
+
+/* Spinner cargando */
+.ctn-preloader .animation-preloader .spinner {
+  animation: spinner 1s infinite linear;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #ffffff; /* No se identa por orden alfabetico para que no lo sobre-escriba */
+  height: 9em;
+  margin: 0 auto 3.5em auto;
+  width: 9em;
+}
+
+/* Texto cargando */
+.ctn-preloader .animation-preloader .txt-loading {
+  font: bold 5em "Montserrat", sans-serif;
+  text-align: center;
+  user-select: none;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
+  animation: letters-loading 4s infinite;
+  color: #ffffff;
+  content: attr(data-text-preloader);
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateY(-90deg);
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading {
+  color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(3):before {
+  animation-delay: 0.4s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(5):before {
+  animation-delay: 0.8s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(6):before {
+  animation-delay: 1s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+
+.ctn-preloader .loader-section {
+  background-color: #ffffff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: calc(50% + 1px);
+}
+
+.ctn-preloader .loader-section.section-left {
+  left: 0;
+}
+
+.ctn-preloader .loader-section.section-right {
+  right: 0;
+}
+
+/* Efecto de fade en la animación de cargando */
+.loaded .animation-preloader {
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+/* Efecto de cortina */
+.loaded .loader-section.section-left {
+  transform: translateX(-101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+.loaded .loader-section.section-right {
+  transform: translateX(101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
 
 @media (max-width: 1200px) {
   .overflow_xscroll {
     overflow-x: scroll;
+  }
+}
+/* Animación del preloader */
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* Animación de las letras cargando del preloader */
+@keyframes letters-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
   }
 }

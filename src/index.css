@@ -43,3 +43,55 @@
 .fs_3xsm {
   font-size: var(--fs-3xsm);
 }
+@media(max-width:1200px){
+  :root {
+  --fs-xxl: 56px;
+  --fs-xl: 45px;
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 20px;
+  --fs-slg: 20px;
+  --fs-lg: 30px;
+  --fs-xxsm: 14px;
+  --fs-3xsm: 12px;
+}
+}
+@media(max-width:992px){
+  :root {
+  --fs-xxl: 50px;
+  --fs-xl: 40px;
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 19px;
+  --fs-slg: 19px;
+  --fs-lg: 25px;
+  --fs-xxsm: 14px;
+  --fs-3xsm: 12px;
+}
+}
+@media(max-width:768px){
+  :root {
+  --fs-xxl: 45px;
+  --fs-xl: 35px;
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 19px;
+  --fs-slg: 19px;
+  --fs-lg: 20px;
+  --fs-xxsm: 14px;
+  --fs-3xsm: 12px;
+}
+}
+@media(max-width:576px){
+  :root {
+  --fs-xxl: 40px;
+  --fs-xl: 30px;
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 19px;
+  --fs-slg: 19px;
+  --fs-lg: 18px;
+  --fs-xxsm: 14px;
+  --fs-3xsm: 12px;
+}
+}

@@ -22,16 +22,16 @@ const Community = () => {
             </p>
             <div className="d-flex justify-content-start pt-4 mt-2 align-items-center gap-3">
               <a href="">
-                <img src={twitter} alt="twitter" />
+                <img className="transition_300 scale_hover" src={twitter} alt="twitter" />
               </a>
               <a href="">
-                <img src={discord} alt="discord" />
+                <img className="transition_300 scale_hover" src={discord} alt="discord" />
               </a>
               <a href="">
-                <img src={instagram} alt="instagram" />
+                <img className="transition_300 scale_hover" src={instagram} alt="instagram" />
               </a>
               <a href="">
-                <img src={telegram} alt="" />
+                <img className="transition_300 scale_hover" src={telegram} alt="" />
               </a>
             </div>
           </div>

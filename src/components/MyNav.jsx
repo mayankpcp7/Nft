@@ -32,19 +32,19 @@ const MyNav = () => {
                 />
               </div>
               <li className="px-3">
-                <a href="you.com">My Profile</a>
+                <a className="hover_black transition_300" href="you.com">My Profile</a>
               </li>
               <li className="px-3">
-                <a href="you.com">Explore</a>
+                <a className="hover_black transition_300" href="you.com">Explore</a>
               </li>
               <li className="px-3">
-                <a href="you.com">News</a>
+                <a className="hover_black transition_300" href="you.com">News</a>
               </li>
               <li className="px-3 me-2">
-                <a href="you.com">Activity</a>
+                <a className="hover_black transition_300" href="you.com">Activity</a>
               </li>
               <li className="ps-3 ms-4">
-                <button className="sign_btn">SIGN IN</button>
+                <button className="sign_btn transition_300">SIGN IN</button>
               </li>
             </ul>
 
@@ -70,16 +70,16 @@ const MyNav = () => {
                 />
               </div>
               <li className="px-3">
-                <a href="you.com">My Profile</a>
+                <a className="hover_black transition_300" href="you.com">My Profile</a>
               </li>
               <li className="px-3">
-                <a href="you.com">Explore</a>
+                <a className="hover_black transition_300" href="you.com">Explore</a>
               </li>
               <li className="px-3">
-                <a href="you.com">News</a>
+                <a className="hover_black transition_300" href="you.com">News</a>
               </li>
               <li className="px-3">
-                <a href="you.com">Activity</a>
+                <a className="hover_black transition_300" href="you.com">Activity</a>
               </li>
               <li>
                 <button className="sign_btn">SIGN IN</button>

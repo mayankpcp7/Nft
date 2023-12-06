@@ -8,17 +8,28 @@ import Comments from "./components/Comments";
 import Community from "./components/Community";
 import Latest from "./components/Latest";
 import Upcomming from "./components/Upcomming";
+import NftCategory from "./components/NftCategory";
+import NftTab from "./components/NftTab";
+import NftMarket from "./components/NftMarket";
+import BackToTop from "./components/BackToTop";
+import Preloader from "./components/Preloader";
 function App() {
   return (
     <>
-      <Header />
-      <Nftlooks />
-      <Explore />
-      <Upcomming/>
-      <Latest/>
-      <Community />
-      {/* <Comments /> */}
-      <Footer />
+      <div className="overflow-hidden">
+        <Preloader/>
+        <Header />
+        <Nftlooks />
+        <Explore />
+        <NftMarket />
+        <NftTab />
+        <Upcomming />
+        <Latest />
+        <Community />
+        <Comments />
+        <Footer />
+        <BackToTop />
+      </div>
     </>
   );
 }

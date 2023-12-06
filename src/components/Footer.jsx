@@ -34,16 +34,16 @@ const Footer = () => {
               </div>
               <div className="d-flex justify-content-md-center pt-4 mt-2 align-items-center gap-3">
                 <a href="">
-                  <img src={twitter} alt="twitter" />
+                  <img className="scale_hover transition_300" src={twitter} alt="twitter" />
                 </a>
                 <a href="">
-                  <img src={discord} alt="discord" />
+                  <img className="scale_hover transition_300" src={discord} alt="discord" />
                 </a>
                 <a href="">
-                  <img src={instagram} alt="instagram" />
+                  <img className="scale_hover transition_300" src={instagram} alt="instagram" />
                 </a>
                 <a href="">
-                  <img src={telegram} alt="" />
+                  <img className="scale_hover transition_300" src={telegram} alt="" />
                 </a>
               </div>
             </Col>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <li className="pb-3 mb-1">
                   <a
                     href="#"
-                    className="ff_josefin text-start fw-medium fs_xsm footer_grey"
+                    className="ff_josefin hover_white transition_300 text-start fw-medium fs_xsm footer_grey"
                   >
                     My Profile
                   </a>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <li className="pb-3 mb-1">
                   <a
                     href="#"
-                    className="ff_josefin text-start fw-medium fs_xsm footer_grey"
+                    className="ff_josefin hover_white text-start transition_300 fw-medium fs_xsm footer_grey"
                   >
                     Explore
                   </a>
@@ -68,7 +68,7 @@ const Footer = () => {
                 <li className="pb-3 mb-1">
                   <a
                     href="#"
-                    className="ff_josefin text-start fw-medium fs_xsm footer_grey"
+                    className="ff_josefin transition_300 text-start hover_white fw-medium fs_xsm footer_grey"
                   >
                     News
                   </a>
@@ -76,7 +76,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="ff_josefin text-start fw-medium fs_xsm footer_grey"
+                    className="ff_josefin text-start hover_white transition_300 fw-medium fs_xsm footer_grey"
                   >
                     Activity
                   </a>
