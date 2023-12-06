@@ -481,7 +481,7 @@ input::placeholder {
 }
 
 .ctn-preloader .loader-section {
-  background-color: #ffffff;
+  background-color: #000000;
   height: 100%;
   position: fixed;
   top: 0;
