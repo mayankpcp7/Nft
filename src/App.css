@@ -158,6 +158,7 @@ input::placeholder {
 #market .slick-slide {
   padding-left: 12px;
   padding-right: 12px;
+  padding-bottom: 5px;
 }
 .bg_market {
   border-radius: 25px;
@@ -364,6 +365,9 @@ input::placeholder {
   border-radius: 10px;
 }
 /* ------------------Hovers------------------ */
+.short_scale:hover {
+  transform: scale(0.9);
+}
 .hover_black:hover {
   opacity: 100%;
 }
@@ -382,7 +386,7 @@ input::placeholder {
   color: white;
   background-color: #808080;
 }
-.hover_white:hover{
+.hover_white:hover {
   color: white;
 }
 /* ---------------------Preloader-------------- */

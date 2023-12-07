@@ -3,10 +3,15 @@ import { Row, Col } from "react-bootstrap";
 const Upcomming = () => {
   return (
     <>
-      <div className="mw_1140 mb-5 mt-5 pt-5 mx-auto px_12">
-        <Row className="mb-5 pb-5 pt-5">
+      <div className="mw_1140 mb-lg-5 mt-lg-5 pt-5 mx-auto px_12">
+        <Row className="mb-lg-5 pb-5 pt-5">
           <Col md={6}>
-            <div className="bg_upcomming py-5 px-5 rounded-5">
+            <div
+              className="bg_upcomming py-5 px-xl-5 px-md-4 px-3 py-md-4 py-xl-5 py-lg-3  rounded-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <h3 className="text-center text-white fw-bold ff_josefin fs_xl">
                 Upcoming top nfts
               </h3>
@@ -20,14 +25,19 @@ const Upcomming = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
               <div className="d-flex align-items-center justify-content-center">
-                <button className="ff_josefin fw-semibold fs_xsm mx-auto scale_hover transition_300 mt-5 explore_btn bg-white text-center mt-5">
+                <button className="ff_josefin fw-semibold fs_xsm mx-auto scale_hover transition_300 mt-sm-5 mt-3 explore_btn bg-white text-center ">
                   Explore more
                 </button>
               </div>
             </div>
           </Col>
           <Col md={6} className="pt-3 pt-md-0">
-            <div className="bg_upcomming2 py-5 px-5 rounded-5">
+            <div
+              className="bg_upcomming2 py-5 px-xl-5 px-md-4 px-3 py-md-4 py-xl-5 py-3 rounded-5"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <h3 className="text-center text-white fw-bold ff_josefin fs_xl">
                 Upcoming top nfts
               </h3>

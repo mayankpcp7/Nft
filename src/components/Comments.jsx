@@ -24,6 +24,9 @@ const Comments = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: true,
         },
       },
       {
@@ -31,6 +34,9 @@ const Comments = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: true,
         },
       },
       {
@@ -38,6 +44,9 @@ const Comments = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: true,
         },
       },
     ],
@@ -45,8 +54,13 @@ const Comments = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="mw_1140 mx-auto px_12 mb-5 pb-5" id="comment">
-        <h2 className="text-start text-black ff_josefin fs_xl fw-semibold lh_normal mb-3">
+      <div className="mw_1140 mx-auto px_12 mb-lg-5 pb-5" id="comment">
+        <h2
+          className="text-md-start text-center text-black ff_josefin fs_xl fw-semibold lh_normal mb-3"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           Comments
         </h2>
         <div className="position-relative">

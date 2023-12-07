@@ -4,7 +4,7 @@ import headerimg from "../assets/img/png/header_img.png";
 const Header = () => {
   return (
     <>
-      <div className="px-4 rounded-5">
+      <div className="px-md-4 px-3 rounded-5">
         <MyNav />
         <div className="bg_header  rounded-5 pb-2">
           <div className="d-flex flex-column justify-content-xxl-center rounded-5 h-100 align-items-center pb-1">
@@ -15,7 +15,7 @@ const Header = () => {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
             </p>
-            <img className="pt-4 mt-2 me-1 pb-2" src={headerimg} alt="headerimg" />
+            <img className="pt-4 mt-2 me-1 pb-2 mw_100" src={headerimg} alt="headerimg" />
             <button className="join_btn fw-semibold ff_josefin  fs_sm rounded-5 bg-transparent mt-4 mb-4">JOIN US</button>
           </div>
         </div>

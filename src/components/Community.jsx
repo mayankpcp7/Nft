@@ -7,8 +7,13 @@ import instagram from "../assets/img/svg/instagram.svg";
 const Community = () => {
   return (
     <>
-      <div className="mw_1140 mx-auto px_!2 mb-5 pb-5">
-        <div className="d-md-flex align-items-center py-5 bg_community px-md-5 px-4 mx-2">
+      <div className="mw_1140 mx-auto px_!2 mb-5 mt-5 pb-5">
+        <div
+          className="d-md-flex align-items-center py-md-5 py-4 bg_community px-md-5 px-md-4 px-3 mx-2"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <img className="wh_193 my-2" src={img} alt="img" />
           <div className="d-flex flex-column ms-md-5 ps-3">
             <h4 className="text-white ff_josefin fs_xl mt-3 fw-bold">
@@ -22,16 +27,32 @@ const Community = () => {
             </p>
             <div className="d-flex justify-content-start pt-4 mt-2 align-items-center gap-3">
               <a href="">
-                <img className="transition_300 scale_hover" src={twitter} alt="twitter" />
+                <img
+                  className="transition_300 scale_hover"
+                  src={twitter}
+                  alt="twitter"
+                />
               </a>
               <a href="">
-                <img className="transition_300 scale_hover" src={discord} alt="discord" />
+                <img
+                  className="transition_300 scale_hover"
+                  src={discord}
+                  alt="discord"
+                />
               </a>
               <a href="">
-                <img className="transition_300 scale_hover" src={instagram} alt="instagram" />
+                <img
+                  className="transition_300 scale_hover"
+                  src={instagram}
+                  alt="instagram"
+                />
               </a>
               <a href="">
-                <img className="transition_300 scale_hover" src={telegram} alt="" />
+                <img
+                  className="transition_300 scale_hover"
+                  src={telegram}
+                  alt=""
+                />
               </a>
             </div>
           </div>

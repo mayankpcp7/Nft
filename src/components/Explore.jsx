@@ -4,13 +4,21 @@ import heart from "../assets/img/png/heart.png";
 const Explore = () => {
   return (
     <>
-      <div className="mw_1140 px-3 mx-auto mt-5 pt-4">
-        <h2 className="text-start ff_josefin fs_xl text-black fw-semibold pt-4 pb-4 fw-bold">
+      <div className="mw_1140 px-3 mx-auto mt-md-5 mt-3 pt-lg-4">
+        <h2
+          className="text-sm-start text-center ff_josefin fs_xl text-black fw-semibold pt-4 pb-4 fw-bold"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           Explore top NFT
         </h2>
         {exploredata.map((explore) => {
           return (
-            <div className="d-flex flex-sm-row flex-column exploration px_29 py_20 mb-2 mt-1 pe-3">
+            <div
+              className="d-flex flex-sm-row flex-column exploration px-3 py-3 px_29 py_20 mb-2 mt-1 pe-3"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <img
                 className="mh_211 w_207 me-4 object-fit-cover rounded-5 "
                 src={explore.pic}

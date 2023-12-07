@@ -5,18 +5,28 @@ const NftTab = () => {
   return (
     <>
       <div className="mw_1140 mx-auto px_12">
-        <h2 className="text-center ff_josefin fw-bold fs_xl">
+        <h2
+          className="text-center mb-0 ff_josefin fw-bold fs_xl"
+          data-aos="zoom-in-down"
+          data-aos-duration="2000"
+        >
           Top NFT by Category
         </h2>
-        <p className="text-center mb-5 pb-3 mw_858 mx-auto lh_120 color_tab ff_josefin fw-semibold fs_xsm">
+        <p
+          className="text-center mw_858 pt-4 mx-auto lh_120 color_tab ff_josefin fw-semibold fs_xsm"
+          data-aos="zoom-in-up"
+          data-aos-duration="2500"
+        >
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo
         </p>
 
-        <div className="d-flex flex-column pt-lg-5 mt-3 gap-4 ">
+        <div className="d-flex flex-column pt-lg-5 mt-3 ">
           <Tabs
+            data-aos="zoom-in"
+            data-aos-duration="2500"
             defaultActiveKey="home"
             id="uncontrolled-tab-example"
             className="mb-5"

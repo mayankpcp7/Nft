@@ -13,11 +13,19 @@ import NftTab from "./components/NftTab";
 import NftMarket from "./components/NftMarket";
 import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
+import Aos from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 function App() {
+   useEffect(() => {
+     Aos.init({ once: true, disable: "mobile" });
+     Aos.refresh();
+   }, []);
   return (
     <>
+      
       <div className="overflow-hidden">
-        <Preloader/>
+        {/* <Preloader/> */}
         <Header />
         <Nftlooks />
         <Explore />

@@ -14,36 +14,80 @@ const Footer = () => {
             <Col lg={2} md={4} sm={10}>
               <img
                 className="wh_134 pt-3 mb-4 mb-sm-0"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
                 src={footerlogo}
                 alt="footerlogo"
               />
             </Col>
             <Col lg={6} md={8} sm={10} className="pt-4 pt-md-0">
-              <h3 className="text-white fs_md text-md-center ff_josefin lh_normal mb-4 pb-1">
+              <h3
+                className="text-white fs_md text-md-center ff_josefin lh_normal mb-4 pb-1"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 Get the latest Rarible updates
               </h3>
-              <div className="d-flex align-items-center justify-content-md-center rounded-5">
+              <div className="d-sm-flex align-items-center justify-content-md-center rounded-5">
                 <input
                   className="bg_grey footer_input px-4 py-2 mw_247 border_input"
+                  data-aos="fade-up"
+                  data-aos-offset="400"
+                  data-aos-easing="ease-in-sine"
                   type="mail"
                   placeholder="Email address"
                 />
-                <button className="subscribe fw-semibold text-black ff_josefin fs_sm">
+                <button
+                  className="subscribe fw-semibold text-black ff_josefin fs_sm"
+                  data-aos="fade-down"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                >
                   SUBSCRIBE
                 </button>
               </div>
               <div className="d-flex justify-content-md-center pt-4 mt-2 align-items-center gap-3">
                 <a href="">
-                  <img className="scale_hover transition_300" src={twitter} alt="twitter" />
+                  <img
+                    className="scale_hover transition_300"
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    src={twitter}
+                    alt="twitter"
+                  />
                 </a>
                 <a href="">
-                  <img className="scale_hover transition_300" src={discord} alt="discord" />
+                  <img
+                    data-aos="fade-up"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine"
+                    className="scale_hover transition_300"
+                    src={discord}
+                    alt="discord"
+                  />
                 </a>
                 <a href="">
-                  <img className="scale_hover transition_300" src={instagram} alt="instagram" />
+                  <img
+                    data-aos="fade-right"
+                    data-aos-offset="500"
+                    data-aos-easing="ease-in-sine"
+                    className="scale_hover transition_300"
+                    src={instagram}
+                    alt="instagram"
+                  />
                 </a>
                 <a href="">
-                  <img className="scale_hover transition_300" src={telegram} alt="" />
+                  <img
+                    data-aos="fade-right"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"
+                    className="scale_hover transition_300"
+                    src={telegram}
+                    alt=""
+                  />
                 </a>
               </div>
             </Col>
@@ -53,12 +97,18 @@ const Footer = () => {
                   <a
                     href="#"
                     className="ff_josefin hover_white transition_300 text-start fw-medium fs_xsm footer_grey"
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
                   >
                     My Profile
                   </a>
                 </li>
                 <li className="pb-3 mb-1">
                   <a
+                    data-aos="fade-right"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine"
                     href="#"
                     className="ff_josefin hover_white text-start transition_300 fw-medium fs_xsm footer_grey"
                   >
@@ -67,6 +117,9 @@ const Footer = () => {
                 </li>
                 <li className="pb-3 mb-1">
                   <a
+                    data-aos="fade-right"
+                    data-aos-offset="500"
+                    data-aos-easing="ease-in-sine"
                     href="#"
                     className="ff_josefin transition_300 text-start hover_white fw-medium fs_xsm footer_grey"
                   >
@@ -75,6 +128,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
+                    data-aos="fade-right"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"
                     href="#"
                     className="ff_josefin text-start hover_white transition_300 fw-medium fs_xsm footer_grey"
                   >
@@ -84,7 +140,14 @@ const Footer = () => {
               </ul>
             </Col>
           </Row>
-          <p className="text-center mb-0 ff_josefin fs_3xsm">© Copyright 2022 Destroyers of Fiat . All Rights Reserved.</p>
+          <p
+            className="text-center mb-0 ff_josefin fs_3xsm"
+            data-aos="fade-up"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine"
+          >
+            © Copyright 2022 Destroyers of Fiat . All Rights Reserved.
+          </p>
         </div>
       </section>
     </>

@@ -22,20 +22,29 @@ const NftMarket = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: true,
         },
       },
       {
-        breakpoint: 767,
+        breakpoint: 868,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: true,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: true,
         },
       },
     ],
@@ -43,8 +52,12 @@ const NftMarket = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="mw_1140 px_12 mx-auto mt-5 pt-4 pb-2" id="market">
-        <h2 className="text-start fs_xl fw-bold mb-5 pb-3 ">
+      <div className="mw_1140 px_12 mx-auto mt-sm-5 mt-3 pt-4 pb-2" id="market">
+        <h2
+          className="text-sm-start text-center fs_xl fw-bold mb-sm-5 mb-3 pb-lg-3 "
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           Top NFT Market places
         </h2>
         <div className="position-relative">
@@ -54,28 +67,28 @@ const NftMarket = () => {
           >
             <Backbtn />
           </div>
-          <Slider className="mb-5 pb-5" {...settings} ref={first}>
-            <Col lg={3}>
+          <Slider className="mb-lg-5 pb-5" {...settings} ref={first}>
+            <Col lg={3} data-aos="flip-down" data-aos-suration="2200">
               <div className="d-flex bg_market  justify-content-center align-items-center ">
                 <img src={boat} alt="boat" />
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} data-aos="flip-down" data-aos-suration="2500">
               <div className="d-flex bg_market  justify-content-center align-items-center ">
                 <img src={r} alt="boat" />
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} data-aos="flip-down" data-aos-suration="2700">
               <div className="d-flex bg_market  justify-content-center align-items-center ">
                 <img src={sr} alt="boat" />
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} data-aos="flip-down" data-aos-suration="2900">
               <div className="d-flex bg_market  justify-content-center align-items-center ">
                 <img src={tr} alt="boat" />
               </div>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} data-aos="flip-down" data-aos-suration="3100">
               <div className="d-flex bg_market  justify-content-center align-items-center ">
                 <img src={tr} alt="boat" />
               </div>
