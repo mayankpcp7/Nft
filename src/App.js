@@ -25,7 +25,7 @@ function App() {
     <>
       
       <div className="overflow-hidden">
-        {/* <Preloader/> */}
+        <Preloader/>
         <Header />
         <Nftlooks />
         <Explore />
