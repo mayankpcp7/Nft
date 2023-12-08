@@ -32,7 +32,7 @@ const Footer = () => {
               </h3>
               <div className="d-sm-flex align-items-center justify-content-md-center rounded-5">
                 <input
-                  className="bg_grey footer_input px-4 py-2 mw_247 border_input"
+                  className="bg_grey footer_grey footer_input px-4 py-2 mw_247 border_input"
                   data-aos="fade-up"
                   data-aos-offset="400"
                   data-aos-easing="ease-in-sine"
@@ -40,7 +40,7 @@ const Footer = () => {
                   placeholder="Email address"
                 />
                 <button
-                  className="subscribe fw-semibold text-black ff_josefin fs_sm"
+                  className="subscribe fw-semibold text-black pt-1 ff_josefin fs_sm"
                   data-aos="fade-down"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
@@ -49,7 +49,7 @@ const Footer = () => {
                 </button>
               </div>
               <div className="d-flex justify-content-md-center pt-4 mt-2 align-items-center gap-3">
-                <a href="">
+                <a href="" target="_blank">
                   <img
                     className="scale_hover transition_300"
                     data-aos="fade-up"
@@ -59,7 +59,7 @@ const Footer = () => {
                     alt="twitter"
                   />
                 </a>
-                <a href="">
+                <a href="" target="_blank">
                   <img
                     data-aos="fade-up"
                     data-aos-offset="400"
@@ -69,7 +69,7 @@ const Footer = () => {
                     alt="discord"
                   />
                 </a>
-                <a href="">
+                <a href="/" target="_blank">
                   <img
                     data-aos="fade-right"
                     data-aos-offset="500"
@@ -79,7 +79,7 @@ const Footer = () => {
                     alt="instagram"
                   />
                 </a>
-                <a href="">
+                <a href="" target="_blank">
                   <img
                     data-aos="fade-right"
                     data-aos-offset="600"
@@ -95,6 +95,7 @@ const Footer = () => {
               <ul className="d-flex flex-column ps-lg-5 ms-2 ps-0">
                 <li className="pb-3 mb-1">
                   <a
+                    target="_blank"
                     href="#"
                     className="ff_josefin hover_white transition_300 text-start fw-medium fs_xsm footer_grey"
                     data-aos="fade-up"
@@ -106,6 +107,7 @@ const Footer = () => {
                 </li>
                 <li className="pb-3 mb-1">
                   <a
+                    target="_blank"
                     data-aos="fade-right"
                     data-aos-offset="400"
                     data-aos-easing="ease-in-sine"
@@ -117,6 +119,7 @@ const Footer = () => {
                 </li>
                 <li className="pb-3 mb-1">
                   <a
+                    target="_blank"
                     data-aos="fade-right"
                     data-aos-offset="500"
                     data-aos-easing="ease-in-sine"
@@ -128,6 +131,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
+                    target="_blank"
                     data-aos="fade-right"
                     data-aos-offset="600"
                     data-aos-easing="ease-in-sine"
@@ -141,7 +145,7 @@ const Footer = () => {
             </Col>
           </Row>
           <p
-            className="text-center mb-0 ff_josefin fs_3xsm"
+            className="text-center color_80 mb-0 ff_josefin fs_3xsm"
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-easing="ease-in-sine"

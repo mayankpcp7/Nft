@@ -20,7 +20,7 @@ const Explore = () => {
               data-aos-duration="2000"
             >
               <img
-                className="mh_211 w_207 me-4 object-fit-cover rounded-5 "
+                className="mh_211 w_207 me-sm-4 object-fit-cover rounded-5 "
                 src={explore.pic}
                 alt="explorepic"
               />

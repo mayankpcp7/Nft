@@ -17,8 +17,8 @@ const MyNav = () => {
   return (
     <>
       <>
-        <Nav className="py-1 bg-white mw_1140 mx-auto">
-          <div className=" container d-flex justify-content-between align-items-center">
+        <Nav className="py-1 bg-white mw_1140 mx-xl-auto w-100">
+          <div className="container mw_1140 d-flex justify-content-between align-items-center">
             <div className="logo c_pointer">
               <img src={navlogo} alt="logo" className="w-75 w_lg_100" />
             </div>
@@ -26,7 +26,7 @@ const MyNav = () => {
               <div className="rounded-5 me-5 d-flex align-items-center border_grey">
                 <img className="ps-1 ms-2" src={searchicon} alt="searchicion" />
                 <input
-                  className="border-0 rounded-5 w_160 py-1 outline_none "
+                  className="border-0 rounded-5 nav_input w_160 py-1 outline_none "
                   type="text"
                   placeholder="Search..."
                 />
@@ -47,7 +47,6 @@ const MyNav = () => {
                 <button className="sign_btn transition_300">SIGN IN</button>
               </li>
             </ul>
-
             <div
               className="d-flex justify-content-between flex-column d-lg-none menu_box z_index_100 position-relative z_50"
               onClick={showNav}
@@ -82,7 +81,7 @@ const MyNav = () => {
                 <a className="hover_black transition_300" href="you.com">Activity</a>
               </li>
               <li>
-                <button className="sign_btn">SIGN IN</button>
+                <button className="sign_btn pt-1">SIGN IN</button>
               </li>
             </ul>
           </div>

@@ -13,7 +13,7 @@ const Nftlooks = () => {
         >
           Top NFT to look out for in 2022
         </h2>
-        <div className=" pt-xs-3 mt-md-5 mt-3 d-flex align-items-center gap-1 overflow_xscroll pb-md-2">
+        <div className=" pt-xs-3 mt-xl-5 mt-3 d-flex align-items-center gap-1 overflow_xscroll pb-md-2">
           {lookoutdata.map((bonorum) => {
             return (
               <div

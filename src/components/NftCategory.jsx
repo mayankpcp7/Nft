@@ -6,10 +6,10 @@ const NftCategory = () => {
   return (
     <>
       <div className="mw_1140 mx-auto px_12">
-        <Row>
+        <Row className="justify-content-center">
           {Categorydata.map((Category) => {
             return (
-              <Col lg={3} md={4} sm={6}>
+              <Col lg={3} md={4} sm={5} xs={10}>
                 <div
                   className="d-flex align_items_center  category_card flex-column px-3 pb-3 mb-3 mt-2 short_scale transition_300"
                   data-aos="fade-up"

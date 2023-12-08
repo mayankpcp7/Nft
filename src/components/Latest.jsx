@@ -25,6 +25,7 @@ const Latest = () => {
           autoplay: true,
           autoplaySpeed: 3000,
           pauseOnFocus: true,
+          dots: true,
         },
       },
       {
@@ -35,6 +36,7 @@ const Latest = () => {
           autoplay: true,
           autoplaySpeed: 3000,
           pauseOnFocus: true,
+          dots: true,
         },
       },
     ],
@@ -43,7 +45,7 @@ const Latest = () => {
   return (
     <>
       <h2
-        className="text-center ff_josefin pt-5 fs_xl text-black pb-lg-5 pb-3 fw-bold"
+        className="text-center ff_josefin pt-xl-5 fs_xl text-black pb-xl-5 pb-md-3 pb-md-3 fw-bold"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="300"
@@ -54,7 +56,7 @@ const Latest = () => {
       <div className="mw_1140 mb-lg-5 pb-5 mx-auto px_12" id="latest">
         <div className="position-relative">
           <div
-            className="position-absolute curser_pointer top-50 trtl_y"
+            className="position-absolute z-3 curser_pointer top-50 trtl_y"
             onClick={() => first.current.slickPrev()}
           >
             <Backbtn />
@@ -102,7 +104,7 @@ const Latest = () => {
             </div>
           </Slider>
           <div
-            className=" curser_pointer top-50 position-absolute right_n2 "
+            className="z-3 curser_pointer top-50 position-absolute right_n2 "
             onClick={() => first.current.slickNext()}
           >
             <Nextbtn />

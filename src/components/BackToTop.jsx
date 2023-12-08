@@ -19,7 +19,7 @@ const BackToTop = () => {
         {backTop ? (
           <span
             onClick={moveToTop}
-            className="position-fixed bottom-0 right-0 bg_light z_20 me-4 bottom-3 end-0  mb-4 cursor_pointer"
+            className="position-fixed bottom-0 right-0 bg_light z_20 me-4 bottom-3 end-0  mb-4 curser_pointer"
           >
             <img className="back_top" src={back} alt="back" />
           </span>

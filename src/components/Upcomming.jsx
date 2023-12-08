@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 const Upcomming = () => {
   return (
     <>
-      <div className="mw_1140 mb-lg-5 mt-lg-5 pt-5 mx-auto px_12">
+      <div className="mw_1140 mb-lg-5 mt-lg-5 mx-auto px_12">
         <Row className="mb-lg-5 pb-5 pt-5">
           <Col md={6}>
             <div

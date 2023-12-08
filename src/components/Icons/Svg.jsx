@@ -21,7 +21,7 @@ export const BackTop = () => {
 };
 export const Nextbtn = () => {
   return (
-    <svg className="curser_pointer d-xl-block d-none"
+    <svg className="curser_pointer"
       width="15"
       height="25"
       viewBox="0 0 15 25"
@@ -40,7 +40,7 @@ export const Nextbtn = () => {
 };
 export const Backbtn = () => {
   return (
-    <svg className="d-xl-block d-none"
+    <svg className="curser_pointer"
       width="15"
       height="25"
       viewBox="0 0 15 25"

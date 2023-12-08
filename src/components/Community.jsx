@@ -7,7 +7,7 @@ import instagram from "../assets/img/svg/instagram.svg";
 const Community = () => {
   return (
     <>
-      <div className="mw_1140 mx-auto px_!2 mb-5 mt-5 pb-5">
+      <div className="mw_1140 mx-auto px_!2 mb-5 mt-md-5 mt-3 pb-md-5">
         <div
           className="d-md-flex align-items-center py-md-5 py-4 bg_community px-md-5 px-md-4 px-3 mx-2"
           data-aos="flip-left"
@@ -26,28 +26,28 @@ const Community = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className="d-flex justify-content-start pt-4 mt-2 align-items-center gap-3">
-              <a href="">
+              <a href="" target="_blank">
                 <img
                   className="transition_300 scale_hover"
                   src={twitter}
                   alt="twitter"
                 />
               </a>
-              <a href="">
+              <a href="" target="_blank">
                 <img
                   className="transition_300 scale_hover"
                   src={discord}
                   alt="discord"
                 />
               </a>
-              <a href="">
+              <a href="" target="_blank">
                 <img
                   className="transition_300 scale_hover"
                   src={instagram}
                   alt="instagram"
                 />
               </a>
-              <a href="">
+              <a href="" target="_blank">
                 <img
                   className="transition_300 scale_hover"
                   src={telegram}

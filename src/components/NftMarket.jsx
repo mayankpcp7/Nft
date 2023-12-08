@@ -25,16 +25,18 @@ const NftMarket = () => {
           autoplay: true,
           autoplaySpeed: 3000,
           pauseOnFocus: true,
+          dots: true,
         },
       },
       {
-        breakpoint: 868,
+        breakpoint: 843,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 3000,
           pauseOnFocus: true,
+          dots: true,
         },
       },
       {
@@ -45,6 +47,7 @@ const NftMarket = () => {
           autoplay: true,
           autoplaySpeed: 3000,
           pauseOnFocus: true,
+          dots: true,
         },
       },
     ],
@@ -52,7 +55,7 @@ const NftMarket = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="mw_1140 px_12 mx-auto mt-sm-5 mt-3 pt-4 pb-2" id="market">
+      <div className="mw_1140 px_12 mx-auto mt-5 mb-5 pt-md-4 pb-2" id="market">
         <h2
           className="text-sm-start text-center fs_xl fw-bold mb-sm-5 mb-3 pb-lg-3 "
           data-aos="fade-right"
@@ -67,7 +70,7 @@ const NftMarket = () => {
           >
             <Backbtn />
           </div>
-          <Slider className="mb-lg-5 pb-5" {...settings} ref={first}>
+          <Slider className="mb-lg-5 pb-xl-5" {...settings} ref={first}>
             <Col lg={3} data-aos="flip-down" data-aos-suration="2200">
               <div className="d-flex bg_market  justify-content-center align-items-center ">
                 <img src={boat} alt="boat" />
