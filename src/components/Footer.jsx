@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import footerlogo from "../assets/img/png/navlogo.png";
+import footerlogo from "../assets/img/webp/header_img.webp";
 import twitter from "../assets/img/svg/twitter.svg";
 import discord from "../assets/img/svg/discord.svg";
 import telegram from "../assets/img/svg/telegram.svg";

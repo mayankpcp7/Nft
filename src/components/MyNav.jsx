@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Nav } from "react-bootstrap";
-import navlogo from "../assets/img/png/navlogo.png";
+import navlogo from "../assets/img/webp/navlogo.webp";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import searchicon from "../assets/img/svg/Dark/Icon.svg";

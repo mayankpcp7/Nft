@@ -1,6 +1,6 @@
 import React from "react";
 import MyNav from "./MyNav";
-import headerimg from "../assets/img/png/header_img.png";
+import headerimg from "../assets/img/webp/header_img.webp";
 const Header = () => {
   return (
     <>
