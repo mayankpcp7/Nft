@@ -372,7 +372,7 @@ input::placeholder {
   opacity: 100%;
 }
 .scale_hover:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) !important;
 }
 .transition_300 {
   transition: 300ms linear;
