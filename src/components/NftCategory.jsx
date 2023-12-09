@@ -35,7 +35,7 @@ const NftCategory = () => {
                       <p className="ff_josefin dark_grey mb-0 ps-1">915</p>
                     </div>
                   </div>
-                  <div className="d-flex align-items-center pb-xl-5 justify-content-center">
+                  <div className="d-flex align-items-center justify-content-center">
                     <button className="ff_josefin  fs_sm fw-semibold rounded-5 border_grey py-2 px-3 lh_normal bg-transparent color_grey h_buy">
                       BUY NOW
                     </button>

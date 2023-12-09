@@ -116,6 +116,7 @@ input::placeholder {
 .mw_207 {
   max-width: 207.227px;
 }
+
 .nft_look {
   border-radius: 25px;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -265,6 +266,9 @@ input::placeholder {
   height: 36.95px;
   border: none;
   border-radius: 25px;
+}
+.pt_43{
+  padding-top: 43px !important;
 }
 /* -------------------latest news------------ */
 #latest .slick-slide {

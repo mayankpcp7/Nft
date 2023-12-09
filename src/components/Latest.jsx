@@ -63,9 +63,9 @@ const Latest = () => {
           </div>
           <Slider {...settings} ref={first} className="pb-2 pt-4">
             <div className="px-2">
-              <div className="d-flex flex-column px-3 pt-3 latest_card align-items-center align-items-xl-start mw_300">
+              <div className="d-flex flex-column px-3 pt-3 latest_card  align-items-center align-items-xl-start mw_300">
                 <img className="latest_pic" src={latestpic} alt="latestpic" />
-                <p className="text-md-start text-center dark_grey pt-4 mt-1 pb-5 mb-0 ff_josefin ">
+                <p className="text-md-start text-center dark_grey pt-4 mt-1 lh_120 pb-5 mb-0 ff_josefin ">
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Lorem ipsum dolor sit amet,
@@ -73,9 +73,9 @@ const Latest = () => {
               </div>
             </div>
             <div className="px-2">
-              <div className="d-flex flex-column px-3 pt-3 latest_card align-items-center align-items-xl-start mw_300">
+              <div className="d-flex flex-column px-3 pt-3 latest_card  align-items-center align-items-xl-start mw_300">
                 <img className="latest_pic" src={latestpic} alt="latestpic" />
-                <p className="text-start dark_grey pt-4 mt-1 pb-5 mb-0 ff_josefin ">
+                <p className="text-start dark_grey lh_120 pt-4 mt-1 pb-5 mb-0 lh_120 ff_josefin ">
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Lorem ipsum dolor sit amet,
@@ -85,7 +85,7 @@ const Latest = () => {
             <div className="px-2">
               <div className="d-flex flex-column px-3 pt-3 latest_card align-items-center align-items-xl-start mw_300">
                 <img className="latest_pic" src={latestpic} alt="latestpic" />
-                <p className="text-start dark_grey pt-4 mt-1 pb-5 mb-0 ff_josefin ">
+                <p className="text-start dark_grey pt-4 mt-1 lh_120 pb-5 mb-0 ff_josefin ">
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Lorem ipsum dolor sit amet,
@@ -95,7 +95,7 @@ const Latest = () => {
             <div className="px-2">
               <div className="d-flex flex-column px-3 pt-3 latest_card align-items-center align-items-xl-start mw_300">
                 <img className="latest_pic" src={latestpic} alt="latestpic" />
-                <p className="text-start dark_grey pt-4 mt-1 pb-5 mb-0 ff_josefin ">
+                <p className="text-start dark_grey pt-4 lh_120 mt-1 pb-5 mb-0 ff_josefin ">
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Lorem ipsum dolor sit amet,
