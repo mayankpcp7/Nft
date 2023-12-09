@@ -20,7 +20,7 @@ const MyNav = () => {
         <Nav className="py-1 bg-white mw_1140 mx-xl-auto w-100">
           <div className="container mw_1140 d-flex justify-content-between align-items-center">
             <div className="logo c_pointer">
-              <img src={navlogo} alt="logo" className="w-75 w_lg_100" />
+              <img className="hw_90" src={navlogo} alt="logo" />
             </div>
             <ul className="d-lg-flex  mb-0 d-none d-block align-items-center list-unstyled">
               <div className="rounded-5 me-5 d-flex align-items-center border_grey">
@@ -32,16 +32,24 @@ const MyNav = () => {
                 />
               </div>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">My Profile</a>
+                <a className="hover_black transition_300" href="you.com">
+                  My Profile
+                </a>
               </li>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">Explore</a>
+                <a className="hover_black transition_300" href="you.com">
+                  Explore
+                </a>
               </li>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">News</a>
+                <a className="hover_black transition_300" href="you.com">
+                  News
+                </a>
               </li>
               <li className="px-3 me-2">
-                <a className="hover_black transition_300" href="you.com">Activity</a>
+                <a className="hover_black transition_300" href="you.com">
+                  Activity
+                </a>
               </li>
               <li className="ps-3 ms-4">
                 <button className="sign_btn transition_300">SIGN IN</button>
@@ -69,16 +77,24 @@ const MyNav = () => {
                 />
               </div>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">My Profile</a>
+                <a className="hover_black transition_300" href="you.com">
+                  My Profile
+                </a>
               </li>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">Explore</a>
+                <a className="hover_black transition_300" href="you.com">
+                  Explore
+                </a>
               </li>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">News</a>
+                <a className="hover_black transition_300" href="you.com">
+                  News
+                </a>
               </li>
               <li className="px-3">
-                <a className="hover_black transition_300" href="you.com">Activity</a>
+                <a className="hover_black transition_300" href="you.com">
+                  Activity
+                </a>
               </li>
               <li>
                 <button className="sign_btn pt-1">SIGN IN</button>

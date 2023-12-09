@@ -56,7 +56,7 @@ const Comments = () => {
     <>
       <div className="mw_1140 mx-auto px_12 mb-lg-5 pb-5" id="comment">
         <h2
-          className="text-md-start text-center text-black ff_josefin fs_xl fw-semibold lh_normal mb-3"
+          className="text-md-start text-center text-black ff_josefin fs_xl fw-bold lh_normal mb-3"
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"

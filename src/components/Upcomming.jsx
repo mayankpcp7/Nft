@@ -4,10 +4,10 @@ const Upcomming = () => {
   return (
     <>
       <div className="mw_1140 mb-lg-5 mt-lg-5 mx-auto px_12">
-        <Row className="mb-lg-5 pb-5 pt-5">
-          <Col md={6}>
+        <Row className="mb-lg-5 mt-xl-5 pb-5 pt-5">
+          <Col md={6} className="pt-xl-5">
             <div
-              className="bg_upcomming py-5 px-xl-5 px-md-4 px-3 py-md-4 py-xl-5 py-lg-3  rounded-5"
+              className="bg_upcomming y-5 px-xl-5 px-md-4 px-3 py-md-4 py-xl-5 py-3 rounded-5"
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
@@ -31,7 +31,7 @@ const Upcomming = () => {
               </div>
             </div>
           </Col>
-          <Col md={6} className="pt-3 pt-md-0">
+          <Col md={6} className="pt-3  pt-xl-5 mt-xl-2">
             <div
               className="bg_upcomming2 py-5 px-xl-5 px-md-4 px-3 py-md-4 py-xl-5 py-3 rounded-5"
               data-aos="fade-left"

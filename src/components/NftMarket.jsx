@@ -55,9 +55,9 @@ const NftMarket = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="mw_1140 px_12 mx-auto mt-5 mb-5 pt-md-4 pb-2" id="market">
+      <div className="mw_1140 px_12 mx-auto mt-5 mb-5 mb-lg-0 pt-md-4 pb-2" id="market">
         <h2
-          className="text-sm-start text-center fs_xl fw-bold mb-sm-5 mb-3 pb-lg-3 "
+          className="text-sm-start ff_josefin text-black text-center fs_xl fw-bold mb-sm-5 mb-3 pb-lg-3 "
           data-aos="fade-right"
           data-aos-duration="2000"
         >

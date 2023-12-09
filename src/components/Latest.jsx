@@ -45,7 +45,7 @@ const Latest = () => {
   return (
     <>
       <h2
-        className="text-center ff_josefin pt-xl-5 fs_xl text-black pb-xl-5 pb-md-3 pb-md-3 fw-bold"
+        className="text-center ff_josefin pt-xl-4 mb-0 fs_xl text-black pb-xl-5 pb-md-3 pb-md-3 fw-bold"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="300"

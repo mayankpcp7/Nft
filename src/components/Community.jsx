@@ -25,7 +25,7 @@ const Community = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className="d-flex justify-content-start pt-4 mt-2 align-items-center gap-3">
+            <div className="d-flex justify-content-start pt-4 mt-2 mb-3 mb-md-0 align-items-center gap-3">
               <a href="" target="_blank">
                 <img
                   className="transition_300 scale_hover"

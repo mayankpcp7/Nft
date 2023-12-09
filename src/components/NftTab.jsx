@@ -23,7 +23,7 @@ const NftTab = () => {
           aliquip ex ea commodo
         </p>
 
-        <div className="d-flex flex-column pt-lg-5 mt-3 ">
+        <div className="d-flex flex-column pt-xl-5 mt-3 ">
           <Tabs
             data-aos="zoom-in"
             data-aos-duration="2500"

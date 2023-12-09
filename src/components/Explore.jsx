@@ -6,7 +6,7 @@ const Explore = () => {
     <>
       <div className="mw_1140 px-3 mx-auto mt-md-5 mt-3 pt-lg-4">
         <h2
-          className="text-sm-start text-center ff_josefin fs_xl text-black fw-semibold pt-4 pb-4 fw-bold"
+          className="text-sm-start text-center ff_josefin fs_xl text-black fw-semibold pt-1 lh_normal pb-4 fw-bold"
           data-aos="fade-right"
           data-aos-duration="2000"
         >
@@ -20,12 +20,12 @@ const Explore = () => {
               data-aos-duration="2000"
             >
               <img
-                className="mh_211 w_207 me-sm-4 object-fit-cover rounded-5 "
+                className="mh_211 ps-3 w_207 me-sm-4 object-fit-cover rounded-5 "
                 src={explore.pic}
                 alt="explorepic"
               />
               <div>
-                <h5 className="ms-2 ff_josefin text-black lh_normal pt-3 fw-semibold">
+                <h5 className="ms-2 fs_lg ff_josefin text-black lh_normal pt-3 fw-semibold">
                   Bonorum Malorum
                 </h5>
                 <p className="mb-0 lh_120 ff_josefin mw_858 ms-2 fw-semibold">

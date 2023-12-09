@@ -13,7 +13,7 @@ const Footer = () => {
           <Row className="py-5 justify-content-between align-items-start">
             <Col lg={2} md={4} sm={10}>
               <img
-                className="wh_134 pt-3 mb-4 mb-sm-0"
+                className="wh_134 mt-lg-3 mb-4 mb-sm-0"
                 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
@@ -145,7 +145,7 @@ const Footer = () => {
             </Col>
           </Row>
           <p
-            className="text-center color_80 mb-0 ff_josefin fs_3xsm"
+            className="text-center pb-3 color_80 mb-0 ff_josefin fs_3xsm"
             data-aos="fade-up"
             data-aos-offset="500"
             data-aos-easing="ease-in-sine"

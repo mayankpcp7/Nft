@@ -7,7 +7,7 @@ const Nftlooks = () => {
     <>
       <div className="mw_1140 mx-auto px_12 mt-5 pt-sm-4">
         <h2
-          className="text-sm-start text-center text-black ff_josefin lh_normal fs_xl fw-bold"
+          className="text-sm-start text-center pt-3 text-black ff_josefin lh_normal fs_xl fw-bold"
           data-aos="fade-right"
           data-aos-duration="1700"
         >
@@ -17,7 +17,7 @@ const Nftlooks = () => {
           {lookoutdata.map((bonorum) => {
             return (
               <div
-                className="d-flex flex-column nft_look py-3 px-2"
+                className="d-flex flex-column nft_look py-3 px_look"
                 data-aos="flip-right"
                 data-aos-duration="2000"
               >
