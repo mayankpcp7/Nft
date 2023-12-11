@@ -13,7 +13,7 @@ const Footer = () => {
           <Row className="py-5 justify-content-between align-items-start">
             <Col lg={2} md={4} sm={10}>
               <img
-                className="wh_134 mt-lg-3 mb-4 mb-sm-0"
+                className="wh_134 c_pointer mt-lg-3 mb-4 mb-sm-0"
                 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
@@ -30,7 +30,7 @@ const Footer = () => {
               >
                 Get the latest Rarible updates
               </h3>
-              <div className="d-sm-flex align-items-center justify-content-md-center rounded-5">
+              <div className="d-flex align-items-center justify-content-md-center rounded-5">
                 <input
                   className="bg_grey footer_grey footer_input px-4 py-2 mw_247 border_input"
                   data-aos="fade-up"
@@ -86,7 +86,7 @@ const Footer = () => {
                     data-aos-easing="ease-in-sine"
                     className="scale_hover transition_300"
                     src={telegram}
-                    alt=""
+                    alt="telegram"
                   />
                 </a>
               </div>

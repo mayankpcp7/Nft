@@ -65,7 +65,7 @@ const NftMarket = () => {
         </h2>
         <div className="position-relative">
           <div
-            className="position-absolute curser_pointer top-50 trtl_y"
+            className="position-absolute curser_pointer top-50 trtl_y pb_12"
             onClick={() => first.current.slickPrev()}
           >
             <Backbtn />
@@ -98,7 +98,7 @@ const NftMarket = () => {
             </Col>
           </Slider>
           <div
-            className=" curser_pointer top-50 position-absolute right_n2 "
+            className=" curser_pointer top-50 position-absolute right_n2 pb_12"
             onClick={() => first.current.slickNext()}
           >
             <Nextbtn />

@@ -65,7 +65,7 @@ const Comments = () => {
         </h2>
         <div className="position-relative">
           <div
-            className="position-absolute curser_pointer top-50 trtl_y"
+            className="position-absolute curser_pointer pb-0 top-50 trtl_y"
             onClick={() => first.current.slickPrev()}
           >
             <Backbtn />
@@ -123,7 +123,7 @@ const Comments = () => {
             </div>
           </Slider>
           <div
-            className=" curser_pointer top-50 position-absolute right_n2 "
+            className=" curser_pointer top-50 pb-0 position-absolute right_n2 "
             onClick={() => first.current.slickNext()}
           >
             <Nextbtn />
